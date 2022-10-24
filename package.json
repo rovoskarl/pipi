@@ -1,11 +1,14 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://rovoskarl.github.io/pipi/",
   "private": true,
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test"
   },
   "browserslist": {
@@ -38,6 +41,7 @@
     "@types/node": "^16.18.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
     "lightgallery": "^2.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
