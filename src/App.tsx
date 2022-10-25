@@ -24,6 +24,7 @@ function Gallery() {
           return (
             <>
               <a
+                data-lg-size="500-500"
                 className="gallery-item"
                 data-src={require(`./images/${index + 1}.JPG`)}
               >
